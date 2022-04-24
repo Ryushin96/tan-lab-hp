@@ -34,8 +34,8 @@ a{
 }
 
 .header ul li{
-    width: 200px;
-    min-width: 200px;
+    width: 150px;
+    min-width: 150px;
     border-left: 2px solid #ddd;
 }
 
@@ -57,10 +57,16 @@ a{
 
 
 .research_explain{
-    margin-top: 100px;
-    margin-left: 300px;
+    margin-top: 50px;
+
     margin-right: 300px;
     margin-bottom: 200px;
+    background-color: azure;
+}
+
+.research_explain .explain_txt{
+    margin-left: 300px;
+    padding: 80px 40px 80px;
 }
 
 
