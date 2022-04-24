@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Hiragino kaku Gothic Pro', 'Meiryo', sans-serif;
+    font-size: 15px;
+    border-top: 10px solid #79a1b1;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+/*一番上のロゴ*/
+.logo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.w_inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+
+    background-color: white;
+    margin-bottom: 40px;
+
+}
+
+.header ul{
+
+    display: flex;
+}
+
+.header ul li{
+    width: 200px;
+    min-width: 200px;
+    border-left: 2px solid #ddd;
+}
+
+
+
+.header ul li a{
+    display: block;
+}
+
+.header_img{
+    text-align: center;
+}
+
+.header_img img{
+    width: 1200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.research_explain{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 200px;
+}
+
+
+.container_research .research_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_research .research{
+    width: 380px;
+    text-align: center;
+}
+
+.container_research h2{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container_research .research img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.container_research .research .ttl{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container_research .research .explain{
+    margin-bottom: 20px;
+}
+
+.container_research .research a{
+    background: #79a1b1;
+    color: #fff;
+    padding: 15px 20px 12px;
+}
+
+
+.footer{
+    margin-top: 40px;
+    border-top: 5px solid #79a1b1;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .copy{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.footer .jaist_link{
+    text-align: right;
+}
+.footer .jaist_link img{
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+}
