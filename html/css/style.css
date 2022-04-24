@@ -4,6 +4,8 @@ body{
     font-family: 'Hiragino kaku Gothic Pro', 'Meiryo', sans-serif;
     font-size: 15px;
     border-top: 10px solid #79a1b1;
+    background-image: url(/img/background/back.jpeg);
+    background-position: 0px 206px;
 }
 a{
     text-decoration: none;
@@ -45,28 +47,36 @@ a{
     display: block;
 }
 
-.header_img{
+.new{
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-right: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 
-.header_img img{
-    width: 1200px;
-    height: 200px;
-    object-fit: cover;
+.new p{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
 }
 
 
 .research_explain{
     margin-top: 50px;
-
     margin-right: 300px;
     margin-bottom: 200px;
-    background-color: azure;
+	background: rgba(51,112,121,0.2);
 }
 
 .research_explain .explain_txt{
     margin-left: 300px;
     padding: 80px 40px 80px;
+
 }
 
 
